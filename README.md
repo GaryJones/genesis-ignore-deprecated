@@ -8,9 +8,9 @@ Genesis Framework 2.0 includes a new boolean value `genesis_load_deprecated` fil
 
 Deprecated functions are ones which shoudn't be used for some reason, the most common being that they may be removed in a future version of the software. WordPress has apparently never deleted any function and Genesis has only deleted a few that were not being used.
 
-In the case of Genesis Framework 2.0, that stands at 72 deprecated functions out of a total of 352.
+In the case of Genesis Framework 2.0, that stands at 72 deprecated functions out of a total of 355.
 
-This filter means you can turn off loading of the deprecated functions, if you know your theme and plugins isn't using on of them, for a small performance benefit. A quick un-scientific test suggested about 0.13MB of memory usage was saved. This is likely less than 1% of the total memory usage for a front-end of admin request (depends on other plugins and variables), but it's still a saving.
+This filter means you can turn off loading of the deprecated functions, if you know your theme and plugins are not using any of them, for a small performance benefit. A quick un-scientific test suggested about 0.13MB of memory usage was saved. This is likely less than 1% of the total memory usage for a front-end or admin request (depends on other plugins and variables), but it's still a saving.
 
 ## Installation
 
@@ -34,7 +34,7 @@ Check out the Codex for more information about [installing plugins manually](htt
 
 Using git, browse to your `/wp-content/plugins/` directory and clone this repository:
 
-`git clone git@github.com:GaryJones/genesis-ignore-deprecated.git`
+`git clone git@github.com:GaryJones/genesis-ignore-deprecated.git genesis-ignore-deprecated`
 
 Then go to your Plugins screen and click __Activate__.
 
