@@ -1,0 +1,22 @@
+{
+  "name": "garyjones/genesis-ignore-deprecated",
+  "description": "WordPress plugin that stops the Genesis Framework deprecated functions file from loading on every request, giving a small performance benefit.",
+  "keywords": ["genesis", "genesis-ignore-deprecated", "deprecation"],
+  "type": "wordpress-plugin",
+  "homepage": "https://github.com/garyjones/genesis-ignore-deprecated",
+  "license": "GPL-2.0+",
+  "authors": [
+    {
+      "name": "Gary Jones",
+      "homepage": "https://gamajo.com",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/garyjones/genesis-ignore-deprecated/issues",
+    "source": "https://github.com/garyjones/genesis-ignore-deprecated"
+  },
+  "require": {
+    "composer/installers": "^1.0"
+  }
+}
